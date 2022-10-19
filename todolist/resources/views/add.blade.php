@@ -17,5 +17,10 @@
     <a class="nav-link active" href="/add">Add</a>
   </li>
 </ul>
+<br>
+<div class="d-flex justify-content-center">
+    <input type="text" name="Promotion">
+    <input type="submit" name="submit">
+</div>
 </body>
 </html>
