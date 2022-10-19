@@ -14,7 +14,7 @@
     <a class="nav-link active" href="welcome.blade.php">Home</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="about.blade.php">Add</a>
+    <a class="nav-link" href="add.blade.php">Add</a>
   </li>
 </ul>
 </body>
