@@ -14,4 +14,8 @@ class MyController extends Controller
         return view ('add');
     }
    
+    public function hello() {
+        $hello = 'salamo3alikom';
+        return view ('hello');
+    }
 }

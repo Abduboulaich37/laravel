@@ -11,10 +11,10 @@
 <body>
 <ul class="nav nav-tabs justify-content-center">
   <li class="nav-item">
-    <a class="nav-link" href="{{url('/')}}">Home</a>
+    <a class="nav-link" href="{{route('index')}}">Home</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="{{url('/add')}}">Add</a>
+    <a class="nav-link active" href="{{route('add')}}">Add</a>
   </li>
 </ul>
 <br>
@@ -22,6 +22,7 @@
   <form action="/welcome.blade.php" method="POST">
       <input type="text" name="promotion" placeholder="Name of Promotion">
       <input type="submit" name="submit" >
+      <a href="{{route('show')}}">show</a>
   </form>
 </div>
 </body>

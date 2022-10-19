@@ -11,10 +11,10 @@
 <body>
 <ul class="nav nav-tabs justify-content-center">
   <li class="nav-item">
-    <a class="nav-link active" href="{{url('/')}}">Home</a>
+    <a class="nav-link active" href="{{route('index')}}">Home</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="{{url('/add')}}">Add</a>
+    <a class="nav-link" href="{{route('add')}}">Add</a>
   </li>
 </ul>
 </body>

@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MyController;
+use App\Http\Controllers\testCntrlr;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -14,8 +16,11 @@ use App\Http\Controllers\MyController;
 |
 */
 
-Route::get('/', [MyController::class, 'index']);
-Route::get('/add', [MyController::class, 'add']);
+Route::get('/', [MyController::class, 'index'])->name('index');
+Route::get('/add', [MyController::class, 'add'])->name('add');
+Route::get('/add/hello', [MyController::class, 'hello'])->name('hello');
+
+Route::get('/show', [testCntrlr::class, 'show'])->name('show');
 
 
 
