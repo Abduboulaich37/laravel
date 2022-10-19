@@ -11,11 +11,16 @@
 <body>
 <ul class="nav nav-tabs justify-content-center">
   <li class="nav-item">
-    <a class="nav-link active" href="welcome.blade.php">Home</a>
+    <a class="nav-link active" href="/">Home</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="add.blade.php">Add</a>
+    <a class="nav-link" href="/add">Add</a>
   </li>
 </ul>
+<br>
+<div class="d-flex justify-content-center">
+    <input type="text" name="Promotion">
+    <input type="submit" name="submit">
+</div>
 </body>
 </html>

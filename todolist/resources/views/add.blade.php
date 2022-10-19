@@ -11,10 +11,10 @@
 <body>
 <ul class="nav nav-tabs justify-content-center">
   <li class="nav-item">
-    <a class="nav-link" href="welcome.blade.php">Home</a>
+    <a class="nav-link" href="/">Home</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="add.blade.php">Add</a>
+    <a class="nav-link active" href="/add">Add</a>
   </li>
 </ul>
 </body>
