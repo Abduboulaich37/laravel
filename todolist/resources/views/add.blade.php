@@ -19,8 +19,10 @@
 </ul>
 <br>
 <div class="d-flex justify-content-center">
-    <input type="text" name="Promotion">
-    <input type="submit" name="submit">
+  <form action="/welcome.blade.php" method="POST">
+      <input type="text" name="promotion" placeholder="Name of Promotion">
+      <input type="submit" name="submit" >
+  </form>
 </div>
 </body>
 </html>
