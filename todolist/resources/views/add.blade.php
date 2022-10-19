@@ -22,7 +22,7 @@
   <form action="/welcome.blade.php" method="POST">
       <input type="text" name="promotion" placeholder="Name of Promotion">
       <input type="submit" name="submit" >
-      <a href="{{route('show')}}">show</a>
+      <a href="{{route('hello')}}">hello</a>
   </form>
 </div>
 </body>
