@@ -11,14 +11,20 @@
 <body>
 <ul class="nav nav-tabs justify-content-center">
   <li class="nav-item">
-    <a class="nav-link active" href="{{route('index')}}">Home</a>
+    <a class="nav-link " href="{{route('index')}}">Home</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="{{route('add')}}">Add</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link " href="{{route('table')}}">Table</a>
+    <a class="nav-link active" href="{{route('table')}}">Table</a>
   </li>
+</ul>
+
+<ul>
+    @foreach ($table as $promotions)
+    <li>{{ $promotions['name'] }}</li>
+    @endforeach
 </ul>
 </body>
 </html>

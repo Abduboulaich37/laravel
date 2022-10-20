@@ -16,6 +16,9 @@
   <li class="nav-item">
     <a class="nav-link active" href="{{route('add')}}">Add</a>
   </li>
+  <li class="nav-item">
+    <a class="nav-link " href="{{route('table')}}">Table</a>
+  </li>
 </ul>
 <br>
 <div class="d-flex justify-content-center">
