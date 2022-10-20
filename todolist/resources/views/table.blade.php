@@ -21,10 +21,15 @@
   </li>
 </ul>
 
-<ul>
-    @foreach ($table as $promotions)
-    <li>{{ $promotions['name'] }}</li>
-    @endforeach
-</ul>
+@if (count($table) > 0)
+    <ul>
+        @foreach ($table as $promotions)
+        <li>{{ $promotions['name'] }}</li>
+        @endforeach
+    </ul>
+@else 
+    <p>there are no names to display</p>
+@endif
+
 </body>
 </html>
